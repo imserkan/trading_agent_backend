@@ -1,0 +1,72 @@
+api:
+  list:
+    cryptocompare:
+      base:
+        url: https://min-api.cryptocompare.com
+        data:
+          context: /data
+          url: ${api.list.cryptocompare.base.url}${api.list.cryptocompare.base.data.context}
+          pricemulti:
+            context : /pricemulti
+            url: ${api.list.cryptocompare.base.data.url}${api.list.cryptocompare.base.data.pricemulti.context}
+            fsyms:
+              context: ?fsyms=
+              url: ${api.list.cryptocompare.base.data.pricemulti.url}${api.list.cryptocompare.base.data.pricemulti.fsyms.context}
+            tsyms:
+              context: tsyms=
+          historical:
+            hourly:
+              context: /histohour
+              url: ${api.list.cryptocompare.base.data.url}${api.list.cryptocompare.base.data.historical.hourly.context}
+              fsym:
+                context: ?fsym=
+                url: ${api.list.cryptocompare.base.data.historical.hourly.url}${api.list.cryptocompare.base.data.historical.hourly.fsym.context}
+              tsym:
+                context: tsym=
+              e:
+                context: e=
+              aggregate:
+                context: aggregate=
+              aggregatePredictableTimePeriods:
+                context: aggregatePredictableTimePeriods=
+              limit:
+                context: limit=
+              toTs:
+                context: toTs=
+              extraParams:
+                context: extraParams=
+              sign:
+                context: sign=
+
+  keys:
+    cryptocompare: c2575f6c03382c56dc3533738c17472b7a4ee3b7ccbb7d0ae9df48c8e8eee45b
+
+http:
+  localhost:
+    url: http://localhost
+    port:
+      application_port: 8080
+      application_url: ${http.localhost.url}:${http.localhost.port.application_port}
+      connector_port: 8081
+      connector_url: ${http.localhost.url}:${http.localhost.port.connector_port}
+      dataparser_port: 8082
+      dataparser_url: ${http.localhost.url}:${http.localhost.port.dataparser_port}
+tradingagent:
+  context: /tradingagent
+  connector:
+    context: ${tradingagent.context}/connector
+    url: ${http.localhost.port.connector_url}${tradingagent.connector.context}
+    availableSources:
+      context: /availableSources
+      url: ${tradingagent.connector.url}${tradingagent.connector.availableSources.context}
+    historical:
+      context: /historical
+      url: ${tradingagent.connector.url}${tradingagent.connector.historical.context}
+      hourly:
+        context: ${tradingagent.connector.historical.context}/hourly
+        url: ${tradingagent.connector.url}${tradingagent.connector.historical.hourly.context}
+        data:
+          context: ${tradingagent.connector.historical.hourly.context}/data
+          url: ${tradingagent.connector.url}${tradingagent.connector.historical.hourly.data.context}
+  dataparser:
+    context: ${tradingagent.context}/dataparser

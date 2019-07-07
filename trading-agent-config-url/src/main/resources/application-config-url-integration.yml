@@ -1,0 +1,4 @@
+validation:
+  name:
+    minlength: 3
+    maxlength: 255

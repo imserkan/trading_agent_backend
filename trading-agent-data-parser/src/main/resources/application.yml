@@ -1,0 +1,8 @@
+server:
+  port: ${http.localhost.port.dataparser_port}
+
+spring:
+  profiles:
+    active:
+      - config-url-base
+      - config-url-integration
