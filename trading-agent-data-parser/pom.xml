@@ -27,6 +27,11 @@
             <artifactId>trading-agent-config-url</artifactId>
             <version>${trading.agent.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>${spring.boot.starter.version}</version>
+        </dependency>
     </dependencies>
 
 

@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.12</junit.version>
-        <spring.boot.startver.version>2.1.6.RELEASE</spring.boot.startver.version>
+        <spring.boot.starter.version>2.1.6.RELEASE</spring.boot.starter.version>
         <trading.agent.version>1.0-SNAPSHOT</trading.agent.version>
     </properties>
 
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring.boot.startver.version}</version>
+            <version>${spring.boot.starter.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

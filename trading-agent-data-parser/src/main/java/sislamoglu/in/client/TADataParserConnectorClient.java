@@ -9,8 +9,7 @@ import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import sislamoglu.in.model.CurrencyParameters;
-
-import java.util.Map;
+import sislamoglu.in.model.cryptocompare.CryptoCompareHistoricalHourly;
 
 @Service
 public class TADataParserConnectorClient {
@@ -23,17 +22,16 @@ public class TADataParserConnectorClient {
     @Value("${tradingagent.connector.historical.hourly.data.url}")
     private String taConnectorHistoricalHourlyDataUrl;
 
-    public Map<String, String> getHistoricalHourlyDataFromConnectorService(CurrencyParameters currencyParameters){
-        HttpEntity<CurrencyParameters> requestEntity = new HttpEntity<CurrencyParameters>(currencyParameters);
-        ResponseEntity<Map> responseEntity = restTemplate.exchange(taConnectorHistoricalHourlyDataUrl, HttpMethod.POST, constructHttpHeaders(currencyParameters), Map.class);
-        Map<String, String> resultMap = null;
+    public CryptoCompareHistoricalHourly getHistoricalHourlyDataFromConnectorService(CurrencyParameters currencyParameters){
+        ResponseEntity<CryptoCompareHistoricalHourly> responseEntity = restTemplate.exchange(taConnectorHistoricalHourlyDataUrl, HttpMethod.POST, constructHttpHeaders(currencyParameters), CryptoCompareHistoricalHourly.class);
+        CryptoCompareHistoricalHourly cryptoCompareHistoricalHourly = null;
         logger.debug("TradingAgent-ConnectorService returned with status code {} ", responseEntity.getStatusCode());
         if (responseEntity.getStatusCode() == HttpStatus.OK){
-            resultMap = responseEntity.getBody();
+            cryptoCompareHistoricalHourly = responseEntity.getBody();
         }else{
             logger.error("TradingAgent-ConnectorService returned with status code {} ", responseEntity.getStatusCode());
         }
-        return resultMap;
+        return cryptoCompareHistoricalHourly;
     }
 
     private HttpEntity<CurrencyParameters> constructHttpHeaders(CurrencyParameters currencyParameters){

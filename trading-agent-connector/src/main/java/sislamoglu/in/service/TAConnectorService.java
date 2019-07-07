@@ -16,9 +16,10 @@ import sislamoglu.in.model.cryptocompare.CryptoCompareHistoricalHourly;
 import sislamoglu.in.model.cryptocompare.CryptoCompareHistoricalHourlyData;
 import sislamoglu.in.util.APIUrls.CryptoCompareUrls;
 
-import java.lang.reflect.Array;
-import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
 
 @Service
 public class TAConnectorService {
@@ -81,7 +82,7 @@ public class TAConnectorService {
         conversionType.setType((String) conversionTypeObject.get("type"));
         conversionType.setType((String) conversionTypeObject.get("conversionSymbol"));
         cryptoCompareHistoricalHourly.setConversionType(conversionType);
-        //TODO: Date can be formatted using the SimpleDataFormat("dd MMM yyyy HH:mm:ss")
+        //TODO: Date can be formatted using the SimpleDataFormat("yyyy-MM-dd'T'hh:mm:ss.SSSZ")
         cryptoCompareHistoricalHourly.setTimeFrom(new Date((Integer) jsonObject.get("TimeFrom")));
         cryptoCompareHistoricalHourly.setTimeTo(new Date((Integer) jsonObject.get("TimeTo")));
         cryptoCompareHistoricalHourly.setHasWarning((Boolean) jsonObject.get("HasWarning"));

@@ -14,8 +14,7 @@ import java.util.List;
 public class Currency implements ICurrency{
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
     private String name;
 
