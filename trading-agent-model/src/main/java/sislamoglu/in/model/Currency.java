@@ -1,6 +1,7 @@
 package sislamoglu.in.model;
 
 import lombok.Data;
+import org.springframework.data.annotation.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -12,27 +13,19 @@ import java.util.List;
 @Data
 @Entity
 public class Currency implements ICurrency{
-
     @Id
     private String id;
-
     private String name;
-
+    @CreatedBy
+    private String createdBy;
+    @CreatedDate
     @DateTimeFormat(pattern = "yyyy-MM-dd'T'hh:mm:ss.SSSZ")
     private Date createdAt;
+    @LastModifiedBy
+    private String lastModifiedBy;
+    @LastModifiedDate
     @DateTimeFormat(pattern = "yyyy-MM-dd'T'hh:mm:ss.SSSZ")
     private Date lastModifiedAt;
-
     private List<CurrencyInformation> currencyInformationList = new ArrayList<CurrencyInformation>();
-
-    @PrePersist
-    protected void prePersist() {
-        this.createdAt = new Date();
-    }
-
-    @PreUpdate
-    protected void preUpdate(){
-        this.lastModifiedAt = new Date();
-    }
 
 }

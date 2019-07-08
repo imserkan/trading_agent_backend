@@ -48,6 +48,7 @@ http:
   localhost:
     url: http://localhost
     port:
+      mongodb_port: 27017
       application_port: 8080
       application_url: ${http.localhost.url}:${http.localhost.port.application_port}
       connector_port: 8081
@@ -73,3 +74,8 @@ tradingagent:
           url: ${tradingagent.connector.url}${tradingagent.connector.historical.hourly.data.context}
   service:
     context: ${tradingagent.context}/service
+    mongodb:
+      databaseHost: localhost
+      databaseName: tradingagent_service_currency
+
+
