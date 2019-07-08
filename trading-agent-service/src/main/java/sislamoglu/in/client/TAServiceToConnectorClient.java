@@ -4,17 +4,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+import sislamoglu.in.model.Currency;
 import sislamoglu.in.model.CurrencyParameters;
-import sislamoglu.in.model.cryptocompare.CryptoCompareHistoricalHourly;
+
+import java.io.Serializable;
 
 @Service
-public class TADataParserConnectorClient {
+public class TAServiceToConnectorClient implements Serializable {
 
-    Logger logger = LoggerFactory.getLogger(getClass());
+    private Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
     RestTemplate restTemplate;
@@ -22,16 +23,16 @@ public class TADataParserConnectorClient {
     @Value("${tradingagent.connector.historical.hourly.data.url}")
     private String taConnectorHistoricalHourlyDataUrl;
 
-    public CryptoCompareHistoricalHourly getHistoricalHourlyDataFromConnectorService(CurrencyParameters currencyParameters){
-        ResponseEntity<CryptoCompareHistoricalHourly> responseEntity = restTemplate.exchange(taConnectorHistoricalHourlyDataUrl, HttpMethod.POST, constructHttpHeaders(currencyParameters), CryptoCompareHistoricalHourly.class);
-        CryptoCompareHistoricalHourly cryptoCompareHistoricalHourly = null;
+    public Currency getHistoricalHourlyDataFromConnectorService(CurrencyParameters currencyParameters){
+        ResponseEntity<Currency> responseEntity = restTemplate.exchange(taConnectorHistoricalHourlyDataUrl, HttpMethod.POST, constructHttpHeaders(currencyParameters), Currency.class);
+        Currency currency = null;
         logger.debug("TradingAgent-ConnectorService returned with status code {} ", responseEntity.getStatusCode());
         if (responseEntity.getStatusCode() == HttpStatus.OK){
-            cryptoCompareHistoricalHourly = responseEntity.getBody();
+            currency = responseEntity.getBody();
         }else{
             logger.error("TradingAgent-ConnectorService returned with status code {} ", responseEntity.getStatusCode());
         }
-        return cryptoCompareHistoricalHourly;
+        return currency;
     }
 
     private HttpEntity<CurrencyParameters> constructHttpHeaders(CurrencyParameters currencyParameters){
@@ -41,8 +42,4 @@ public class TADataParserConnectorClient {
         return entity;
     }
 
-    @Bean
-    public RestTemplate restTemplate(){
-        return new RestTemplate();
-    }
 }

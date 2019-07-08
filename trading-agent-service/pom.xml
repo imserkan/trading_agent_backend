@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sislamoglu.in</groupId>
-    <artifactId>trading-agent-data-parser</artifactId>
+    <artifactId>trading-agent-service</artifactId>
     <version>${trading.agent.version}</version>
 
     <parent>
@@ -32,7 +32,12 @@
             <artifactId>spring-data-mongodb</artifactId>
             <version>${spring.boot.starter.version}</version>
         </dependency>
-    </dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <version>${spring.boot.starter.version}</version>
+        </dependency>
 
+    </dependencies>
 
 </project>

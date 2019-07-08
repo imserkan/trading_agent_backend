@@ -8,9 +8,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @SpringBootApplication
 @EnableAutoConfiguration
 @EntityScan("sislamoglu.in.model")
-public class TradingAgentDataParserApplication {
-
+public class TradingAgentServiceApplication {
     public static void main(String[] args){
-        SpringApplication.run(TradingAgentDataParserApplication.class, args);
+        SpringApplication.run(TradingAgentServiceApplication.class, args);
     }
 }

@@ -1,12 +1,10 @@
 package sislamoglu.in.service;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -16,13 +14,14 @@ import sislamoglu.in.model.cryptocompare.CryptoCompareHistoricalHourly;
 import sislamoglu.in.model.cryptocompare.CryptoCompareHistoricalHourlyData;
 import sislamoglu.in.util.APIUrls.CryptoCompareUrls;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
 @Service
-public class TAConnectorService {
+public class TAConnectorService implements Serializable {
 
     Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -103,9 +102,4 @@ public class TAConnectorService {
         return cryptoCompareHistoricalHourly;
     }
 
-    @Bean
-    @JsonProperty
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
 }

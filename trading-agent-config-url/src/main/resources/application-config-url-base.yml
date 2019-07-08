@@ -52,8 +52,8 @@ http:
       application_url: ${http.localhost.url}:${http.localhost.port.application_port}
       connector_port: 8081
       connector_url: ${http.localhost.url}:${http.localhost.port.connector_port}
-      dataparser_port: 8082
-      dataparser_url: ${http.localhost.url}:${http.localhost.port.dataparser_port}
+      service_port: 8082
+      service_url: ${http.localhost.url}:${http.localhost.port.service_port}
 tradingagent:
   context: /tradingagent
   connector:
@@ -71,5 +71,5 @@ tradingagent:
         data:
           context: ${tradingagent.connector.historical.hourly.context}/data
           url: ${tradingagent.connector.url}${tradingagent.connector.historical.hourly.data.context}
-  dataparser:
-    context: ${tradingagent.context}/dataparser
+  service:
+    context: ${tradingagent.context}/service

@@ -10,28 +10,29 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import sislamoglu.in.model.Currency;
 import sislamoglu.in.model.CurrencyParameters;
-import sislamoglu.in.service.TADataParserService;
+import sislamoglu.in.service.TAService;
 
 import java.net.URI;
 
 @RestController
-@RequestMapping("${tradingagent.dataparser.context}")
+@RequestMapping("${tradingagent.service.context}")
 @CrossOrigin
-public class TADataParserRestApi {
+public class TAServiceRestAPI {
+
     Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
-    TADataParserService dataParserService;
+    TAService service;
 
-    @Value("${tradingagent.dataparser.context}")
-    private String tradingagentDataparserContext;
+    @Value("${tradingagent.service.context}")
+    private String tradingagentServiceContext;
 
     @PostMapping(value = "${api.list.cryptocompare.context}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     public ResponseEntity<URI> saveCurrencyInformation(@RequestBody CurrencyParameters currencyParameters) {
         URI uri = null;
         try{
-            String savedCurrencyId = dataParserService.saveCurrencyInformation(currencyParameters);
-            uri = new URI(tradingagentDataparserContext + "/" + savedCurrencyId);
+            String savedCurrencyId = service.saveCurrencyInformation(currencyParameters);
+            uri = new URI(tradingagentServiceContext + "/" + savedCurrencyId);
         }catch (Exception ex){
             logger.error(ex.getMessage(), ex);
         }
@@ -42,8 +43,8 @@ public class TADataParserRestApi {
     public ResponseEntity<URI> updateCurrencyInformation(@RequestBody CurrencyParameters currencyParameters) {
         URI uri = null;
         try{
-            String savedCurrencyId = dataParserService.saveCurrencyInformation(currencyParameters);
-            uri = new URI(tradingagentDataparserContext + "/" + savedCurrencyId);
+            String savedCurrencyId = service.saveCurrencyInformation(currencyParameters);
+            uri = new URI(tradingagentServiceContext + "/" + savedCurrencyId);
         }catch (Exception ex){
             logger.error(ex.getMessage(), ex);
         }
@@ -54,7 +55,7 @@ public class TADataParserRestApi {
     public ResponseEntity<Currency> getCurrencyInformation(@PathVariable String id) {
         ResponseEntity<Currency> responseEntity = null;
         try{
-            responseEntity = new ResponseEntity<Currency>(dataParserService.getCurrencyInformation(id), HttpStatus.OK);
+            responseEntity = new ResponseEntity<Currency>(service.getCurrencyInformation(id), HttpStatus.OK);
             return responseEntity;
         }catch (Exception ex){
             logger.error(ex.getMessage(), ex);
@@ -66,7 +67,7 @@ public class TADataParserRestApi {
     public ResponseEntity<String> deleteCurrencyInformation(@PathVariable String id) {
         ResponseEntity<String> responseEntity = null;
         try{
-            responseEntity = new ResponseEntity<String>(dataParserService.deleteCurrencyInformation(id), HttpStatus.OK);
+            responseEntity = new ResponseEntity<String>(service.deleteCurrencyInformation(id), HttpStatus.OK);
         }catch (Exception ex){
             logger.error(ex.getMessage(), ex);
         }

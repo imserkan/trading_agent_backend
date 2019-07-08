@@ -1,5 +1,5 @@
 server:
-  port: ${http.localhost.port.dataparser_port}
+  port: ${http.localhost.port.service_port}
 
 spring:
   profiles:
