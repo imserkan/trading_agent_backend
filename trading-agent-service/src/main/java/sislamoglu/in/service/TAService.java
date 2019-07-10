@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import sislamoglu.in.client.TAServiceToConnectorClient;
 import sislamoglu.in.model.Currency;
 import sislamoglu.in.model.CurrencyParameters;
+import sislamoglu.in.util.TAServiceCurrencyUpdater;
 
 
 @Service
@@ -19,6 +20,8 @@ public class TAService {
     @Autowired
     MongoTemplate mongoTemplate;
 
+    TAServiceCurrencyUpdater serviceCurrencyUpdater = new TAServiceCurrencyUpdater();
+
     public String saveCurrencyInformation(CurrencyParameters currencyParameters){
 
         Currency currency = connectorClient.getHistoricalHourlyDataFromConnectorService(currencyParameters);
@@ -27,7 +30,7 @@ public class TAService {
                 Query.query(Criteria.where("name").is(currency.getName()))
         , Currency.class);
         if (prevCurrency != null){
-            currency = prevCurrency;
+            serviceCurrencyUpdater.addAdditionalCurrencyInformation(prevCurrency, currency);
         }
         Currency savedCurrency = mongoTemplate.save(currency);
         return savedCurrency.getId();

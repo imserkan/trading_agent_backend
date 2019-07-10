@@ -15,6 +15,7 @@ import sislamoglu.in.model.cryptocompare.CryptoCompareHistoricalHourlyData;
 import sislamoglu.in.util.APIUrls.CryptoCompareUrls;
 
 import java.io.Serializable;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -95,7 +96,7 @@ public class TAConnectorService implements Serializable {
             cryptoCompareHistoricalHourlyData.setOpen(Double.valueOf(((HashMap) object).get("open").toString()));
             cryptoCompareHistoricalHourlyData.setVolumeFrom(Double.valueOf(((HashMap) object).get("volumefrom").toString()));
             cryptoCompareHistoricalHourlyData.setVolumeTo(Double.valueOf(((HashMap) object).get("volumeto").toString()));
-            cryptoCompareHistoricalHourlyData.setTime(new Date((Integer) ((HashMap) object).get("time")));
+            cryptoCompareHistoricalHourlyData.setTime(Date.from(Instant.ofEpochSecond(Long.valueOf((Integer)((HashMap) object).get("time")))));
             cryptoCompareHistoricalHourlyDataList.add(cryptoCompareHistoricalHourlyData);
         }
         cryptoCompareHistoricalHourly.setCryptoCompareHistoricalHourlyDataList(cryptoCompareHistoricalHourlyDataList);
