@@ -8,7 +8,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sislamoglu.in.model.Currency;
 import sislamoglu.in.model.CurrencyParameters;
 import sislamoglu.in.service.TAService;
 
@@ -17,7 +16,7 @@ import java.net.URI;
 @RestController
 @RequestMapping("${tradingagent.service.context}")
 @CrossOrigin
-public class TAServiceRestAPI {
+public class TAServiceCommandController {
 
     Logger logger = LoggerFactory.getLogger(getClass());
 
@@ -49,18 +48,6 @@ public class TAServiceRestAPI {
             logger.error(ex.getMessage(), ex);
         }
         return new ResponseEntity<URI>(uri, HttpStatus.OK);
-    }
-
-    @GetMapping(value = "${api.list.cryptocompare.id.context}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    public ResponseEntity<Currency> getCurrencyInformation(@PathVariable String id) {
-        ResponseEntity<Currency> responseEntity = null;
-        try{
-            responseEntity = new ResponseEntity<Currency>(service.getCurrencyInformation(id), HttpStatus.OK);
-            return responseEntity;
-        }catch (Exception ex){
-            logger.error(ex.getMessage(), ex);
-        }
-        return responseEntity;
     }
 
     @DeleteMapping(value = "${api.list.cryptocompare.id.context}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)

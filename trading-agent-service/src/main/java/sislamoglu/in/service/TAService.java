@@ -31,6 +31,7 @@ public class TAService {
         , Currency.class);
         if (prevCurrency != null){
             serviceCurrencyUpdater.addAdditionalCurrencyInformation(prevCurrency, currency);
+            currency = prevCurrency;
         }
         Currency savedCurrency = mongoTemplate.save(currency);
         return savedCurrency.getId();
@@ -44,6 +45,9 @@ public class TAService {
 
     public String deleteCurrencyInformation(String id){
         Currency currency = getCurrencyInformation(id);
+        if (currency == null){
+            throw new ResourceNotAvailableException()
+        }
         mongoTemplate.remove(currency);
         return "Currency with name: " + currency.getName() + ", witd ID: " + currency.getId() + "is successfully deleted";
     }

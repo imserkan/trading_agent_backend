@@ -1,0 +1,1531 @@
+{
+  "id": "5d24a389407f4d3310ca88e9",
+  "name": "WTCBTC",
+  "createdBy": "trading_agent_admin",
+  "createdAt": "2019-07-09T14:24:08.998+0000",
+  "lastModifiedBy": "trading_agent_admin",
+  "lastModifiedAt": "2019-07-09T14:24:08.998+0000",
+  "currencyInformationList": [
+    {
+      "closePrice": 1.593E-4,
+      "highPrice": 1.751E-4,
+      "lowPrice": 1.577E-4,
+      "openPrice": 1.651E-4,
+      "volumeFrom": 487603.51,
+      "volumeTo": 81.75,
+      "timeInterval": "2019-07-02T14:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.677E-4,
+      "highPrice": 1.691E-4,
+      "lowPrice": 1.55E-4,
+      "openPrice": 1.593E-4,
+      "volumeFrom": 392683.62,
+      "volumeTo": 63.74,
+      "timeInterval": "2019-07-02T15:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.778E-4,
+      "highPrice": 1.859E-4,
+      "lowPrice": 1.652E-4,
+      "openPrice": 1.677E-4,
+      "volumeFrom": 723996.8,
+      "volumeTo": 128.71,
+      "timeInterval": "2019-07-02T16:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.826E-4,
+      "highPrice": 1.851E-4,
+      "lowPrice": 1.737E-4,
+      "openPrice": 1.778E-4,
+      "volumeFrom": 382865.81,
+      "volumeTo": 68.42,
+      "timeInterval": "2019-07-02T17:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.736E-4,
+      "highPrice": 1.826E-4,
+      "lowPrice": 1.729E-4,
+      "openPrice": 1.826E-4,
+      "volumeFrom": 176930.55,
+      "volumeTo": 31.16,
+      "timeInterval": "2019-07-02T18:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.858E-4,
+      "highPrice": 1.863E-4,
+      "lowPrice": 1.736E-4,
+      "openPrice": 1.736E-4,
+      "volumeFrom": 271847.6,
+      "volumeTo": 49.24,
+      "timeInterval": "2019-07-02T19:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.78E-4,
+      "highPrice": 1.859E-4,
+      "lowPrice": 1.761E-4,
+      "openPrice": 1.858E-4,
+      "volumeFrom": 172842.1,
+      "volumeTo": 31.0,
+      "timeInterval": "2019-07-02T20:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.774E-4,
+      "highPrice": 1.812E-4,
+      "lowPrice": 1.756E-4,
+      "openPrice": 1.78E-4,
+      "volumeFrom": 142615.57,
+      "volumeTo": 25.37,
+      "timeInterval": "2019-07-02T21:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.721E-4,
+      "highPrice": 1.784E-4,
+      "lowPrice": 1.704E-4,
+      "openPrice": 1.774E-4,
+      "volumeFrom": 317842.58,
+      "volumeTo": 55.28,
+      "timeInterval": "2019-07-02T22:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.634E-4,
+      "highPrice": 1.725E-4,
+      "lowPrice": 1.619E-4,
+      "openPrice": 1.721E-4,
+      "volumeFrom": 325177.45,
+      "volumeTo": 54.29,
+      "timeInterval": "2019-07-02T23:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.588E-4,
+      "highPrice": 1.659E-4,
+      "lowPrice": 1.585E-4,
+      "openPrice": 1.634E-4,
+      "volumeFrom": 249206.5,
+      "volumeTo": 40.41,
+      "timeInterval": "2019-07-03T00:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.547E-4,
+      "highPrice": 1.602E-4,
+      "lowPrice": 1.533E-4,
+      "openPrice": 1.588E-4,
+      "volumeFrom": 194766.58,
+      "volumeTo": 30.46,
+      "timeInterval": "2019-07-03T01:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.722E-4,
+      "highPrice": 1.757E-4,
+      "lowPrice": 1.545E-4,
+      "openPrice": 1.547E-4,
+      "volumeFrom": 504810.68,
+      "volumeTo": 83.83,
+      "timeInterval": "2019-07-03T02:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.76E-4,
+      "highPrice": 1.782E-4,
+      "lowPrice": 1.7E-4,
+      "openPrice": 1.722E-4,
+      "volumeFrom": 336503.28,
+      "volumeTo": 58.51,
+      "timeInterval": "2019-07-03T03:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.712E-4,
+      "highPrice": 1.788E-4,
+      "lowPrice": 1.689E-4,
+      "openPrice": 1.76E-4,
+      "volumeFrom": 350651.12,
+      "volumeTo": 60.77,
+      "timeInterval": "2019-07-03T04:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.652E-4,
+      "highPrice": 1.716E-4,
+      "lowPrice": 1.633E-4,
+      "openPrice": 1.712E-4,
+      "volumeFrom": 178849.1,
+      "volumeTo": 29.79,
+      "timeInterval": "2019-07-03T05:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.682E-4,
+      "highPrice": 1.697E-4,
+      "lowPrice": 1.648E-4,
+      "openPrice": 1.652E-4,
+      "volumeFrom": 118959.91,
+      "volumeTo": 19.96,
+      "timeInterval": "2019-07-03T06:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.758E-4,
+      "highPrice": 1.764E-4,
+      "lowPrice": 1.671E-4,
+      "openPrice": 1.682E-4,
+      "volumeFrom": 279290.23,
+      "volumeTo": 48.21,
+      "timeInterval": "2019-07-03T07:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.768E-4,
+      "highPrice": 1.775E-4,
+      "lowPrice": 1.73E-4,
+      "openPrice": 1.758E-4,
+      "volumeFrom": 159892.23,
+      "volumeTo": 28.03,
+      "timeInterval": "2019-07-03T08:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.757E-4,
+      "highPrice": 1.783E-4,
+      "lowPrice": 1.753E-4,
+      "openPrice": 1.768E-4,
+      "volumeFrom": 110233.07,
+      "volumeTo": 19.53,
+      "timeInterval": "2019-07-03T09:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.692E-4,
+      "highPrice": 1.762E-4,
+      "lowPrice": 1.692E-4,
+      "openPrice": 1.757E-4,
+      "volumeFrom": 183189.17,
+      "volumeTo": 31.49,
+      "timeInterval": "2019-07-03T10:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.766E-4,
+      "highPrice": 1.776E-4,
+      "lowPrice": 1.692E-4,
+      "openPrice": 1.692E-4,
+      "volumeFrom": 225810.72,
+      "volumeTo": 39.47,
+      "timeInterval": "2019-07-03T11:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.73E-4,
+      "highPrice": 1.771E-4,
+      "lowPrice": 1.722E-4,
+      "openPrice": 1.766E-4,
+      "volumeFrom": 142684.39,
+      "volumeTo": 24.89,
+      "timeInterval": "2019-07-03T12:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.683E-4,
+      "highPrice": 1.73E-4,
+      "lowPrice": 1.632E-4,
+      "openPrice": 1.73E-4,
+      "volumeFrom": 367730.53,
+      "volumeTo": 61.41,
+      "timeInterval": "2019-07-03T13:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.629E-4,
+      "highPrice": 1.696E-4,
+      "lowPrice": 1.609E-4,
+      "openPrice": 1.683E-4,
+      "volumeFrom": 126697.99,
+      "volumeTo": 20.91,
+      "timeInterval": "2019-07-03T14:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.593E-4,
+      "highPrice": 1.649E-4,
+      "lowPrice": 1.576E-4,
+      "openPrice": 1.629E-4,
+      "volumeFrom": 126433.12,
+      "volumeTo": 20.34,
+      "timeInterval": "2019-07-03T15:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.603E-4,
+      "highPrice": 1.603E-4,
+      "lowPrice": 1.571E-4,
+      "openPrice": 1.593E-4,
+      "volumeFrom": 111372.38,
+      "volumeTo": 17.71,
+      "timeInterval": "2019-07-03T16:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.61E-4,
+      "highPrice": 1.619E-4,
+      "lowPrice": 1.559E-4,
+      "openPrice": 1.603E-4,
+      "volumeFrom": 131558.53,
+      "volumeTo": 20.81,
+      "timeInterval": "2019-07-03T17:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.581E-4,
+      "highPrice": 1.63E-4,
+      "lowPrice": 1.574E-4,
+      "openPrice": 1.61E-4,
+      "volumeFrom": 115285.88,
+      "volumeTo": 18.5,
+      "timeInterval": "2019-07-03T18:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.58E-4,
+      "highPrice": 1.607E-4,
+      "lowPrice": 1.573E-4,
+      "openPrice": 1.581E-4,
+      "volumeFrom": 68382.77,
+      "volumeTo": 10.88,
+      "timeInterval": "2019-07-03T19:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.564E-4,
+      "highPrice": 1.61E-4,
+      "lowPrice": 1.558E-4,
+      "openPrice": 1.58E-4,
+      "volumeFrom": 154102.98,
+      "volumeTo": 24.29,
+      "timeInterval": "2019-07-03T20:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.554E-4,
+      "highPrice": 1.57E-4,
+      "lowPrice": 1.552E-4,
+      "openPrice": 1.564E-4,
+      "volumeFrom": 75849.25,
+      "volumeTo": 11.82,
+      "timeInterval": "2019-07-03T21:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.488E-4,
+      "highPrice": 1.556E-4,
+      "lowPrice": 1.486E-4,
+      "openPrice": 1.554E-4,
+      "volumeFrom": 108748.33,
+      "volumeTo": 16.47,
+      "timeInterval": "2019-07-03T22:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.534E-4,
+      "highPrice": 1.536E-4,
+      "lowPrice": 1.486E-4,
+      "openPrice": 1.488E-4,
+      "volumeFrom": 122919.92,
+      "volumeTo": 18.56,
+      "timeInterval": "2019-07-03T23:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.506E-4,
+      "highPrice": 1.542E-4,
+      "lowPrice": 1.497E-4,
+      "openPrice": 1.534E-4,
+      "volumeFrom": 52348.58,
+      "volumeTo": 7.976,
+      "timeInterval": "2019-07-04T00:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.541E-4,
+      "highPrice": 1.541E-4,
+      "lowPrice": 1.485E-4,
+      "openPrice": 1.506E-4,
+      "volumeFrom": 168056.67,
+      "volumeTo": 25.31,
+      "timeInterval": "2019-07-04T01:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.601E-4,
+      "highPrice": 1.61E-4,
+      "lowPrice": 1.537E-4,
+      "openPrice": 1.541E-4,
+      "volumeFrom": 227318.95,
+      "volumeTo": 35.55,
+      "timeInterval": "2019-07-04T02:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.676E-4,
+      "highPrice": 1.721E-4,
+      "lowPrice": 1.601E-4,
+      "openPrice": 1.601E-4,
+      "volumeFrom": 319607.09,
+      "volumeTo": 53.32,
+      "timeInterval": "2019-07-04T03:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.648E-4,
+      "highPrice": 1.713E-4,
+      "lowPrice": 1.631E-4,
+      "openPrice": 1.676E-4,
+      "volumeFrom": 129504.49,
+      "volumeTo": 21.76,
+      "timeInterval": "2019-07-04T04:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.654E-4,
+      "highPrice": 1.688E-4,
+      "lowPrice": 1.607E-4,
+      "openPrice": 1.648E-4,
+      "volumeFrom": 169524.2,
+      "volumeTo": 28.0,
+      "timeInterval": "2019-07-04T05:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.662E-4,
+      "highPrice": 1.68E-4,
+      "lowPrice": 1.652E-4,
+      "openPrice": 1.654E-4,
+      "volumeFrom": 64228.26,
+      "volumeTo": 10.67,
+      "timeInterval": "2019-07-04T06:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.69E-4,
+      "highPrice": 1.711E-4,
+      "lowPrice": 1.66E-4,
+      "openPrice": 1.662E-4,
+      "volumeFrom": 154121.36,
+      "volumeTo": 26.15,
+      "timeInterval": "2019-07-04T07:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.669E-4,
+      "highPrice": 1.696E-4,
+      "lowPrice": 1.653E-4,
+      "openPrice": 1.69E-4,
+      "volumeFrom": 60004.85,
+      "volumeTo": 10.02,
+      "timeInterval": "2019-07-04T08:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.666E-4,
+      "highPrice": 1.674E-4,
+      "lowPrice": 1.655E-4,
+      "openPrice": 1.669E-4,
+      "volumeFrom": 50549.19,
+      "volumeTo": 8.411,
+      "timeInterval": "2019-07-04T09:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.703E-4,
+      "highPrice": 1.732E-4,
+      "lowPrice": 1.662E-4,
+      "openPrice": 1.666E-4,
+      "volumeFrom": 86634.01,
+      "volumeTo": 14.78,
+      "timeInterval": "2019-07-04T10:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.861E-4,
+      "highPrice": 1.88E-4,
+      "lowPrice": 1.696E-4,
+      "openPrice": 1.703E-4,
+      "volumeFrom": 344861.73,
+      "volumeTo": 61.25,
+      "timeInterval": "2019-07-04T11:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.872E-4,
+      "highPrice": 1.879E-4,
+      "lowPrice": 1.784E-4,
+      "openPrice": 1.861E-4,
+      "volumeFrom": 346963.0,
+      "volumeTo": 63.58,
+      "timeInterval": "2019-07-04T12:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.839E-4,
+      "highPrice": 1.979E-4,
+      "lowPrice": 1.756E-4,
+      "openPrice": 1.872E-4,
+      "volumeFrom": 904746.57,
+      "volumeTo": 169.17,
+      "timeInterval": "2019-07-04T13:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.751E-4,
+      "highPrice": 1.865E-4,
+      "lowPrice": 1.712E-4,
+      "openPrice": 1.839E-4,
+      "volumeFrom": 379091.29,
+      "volumeTo": 66.62,
+      "timeInterval": "2019-07-04T14:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.741E-4,
+      "highPrice": 1.815E-4,
+      "lowPrice": 1.71E-4,
+      "openPrice": 1.751E-4,
+      "volumeFrom": 207008.63,
+      "volumeTo": 36.25,
+      "timeInterval": "2019-07-04T15:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.743E-4,
+      "highPrice": 1.768E-4,
+      "lowPrice": 1.689E-4,
+      "openPrice": 1.741E-4,
+      "volumeFrom": 247261.86,
+      "volumeTo": 42.45,
+      "timeInterval": "2019-07-04T16:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.678E-4,
+      "highPrice": 1.754E-4,
+      "lowPrice": 1.665E-4,
+      "openPrice": 1.743E-4,
+      "volumeFrom": 198775.34,
+      "volumeTo": 33.75,
+      "timeInterval": "2019-07-04T17:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.682E-4,
+      "highPrice": 1.696E-4,
+      "lowPrice": 1.655E-4,
+      "openPrice": 1.678E-4,
+      "volumeFrom": 94968.56,
+      "volumeTo": 15.93,
+      "timeInterval": "2019-07-04T18:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.7E-4,
+      "highPrice": 1.736E-4,
+      "lowPrice": 1.673E-4,
+      "openPrice": 1.682E-4,
+      "volumeFrom": 138149.73,
+      "volumeTo": 23.6,
+      "timeInterval": "2019-07-04T19:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.698E-4,
+      "highPrice": 1.755E-4,
+      "lowPrice": 1.698E-4,
+      "openPrice": 1.7E-4,
+      "volumeFrom": 109699.0,
+      "volumeTo": 18.98,
+      "timeInterval": "2019-07-04T20:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.705E-4,
+      "highPrice": 1.719E-4,
+      "lowPrice": 1.67E-4,
+      "openPrice": 1.698E-4,
+      "volumeFrom": 73597.03,
+      "volumeTo": 12.43,
+      "timeInterval": "2019-07-04T21:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.668E-4,
+      "highPrice": 1.71E-4,
+      "lowPrice": 1.659E-4,
+      "openPrice": 1.705E-4,
+      "volumeFrom": 64817.08,
+      "volumeTo": 10.88,
+      "timeInterval": "2019-07-04T22:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.683E-4,
+      "highPrice": 1.727E-4,
+      "lowPrice": 1.658E-4,
+      "openPrice": 1.668E-4,
+      "volumeFrom": 105863.98,
+      "volumeTo": 17.94,
+      "timeInterval": "2019-07-04T23:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.699E-4,
+      "highPrice": 1.711E-4,
+      "lowPrice": 1.677E-4,
+      "openPrice": 1.683E-4,
+      "volumeFrom": 48092.28,
+      "volumeTo": 8.174,
+      "timeInterval": "2019-07-05T00:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.705E-4,
+      "highPrice": 1.727E-4,
+      "lowPrice": 1.692E-4,
+      "openPrice": 1.699E-4,
+      "volumeFrom": 75598.82,
+      "volumeTo": 12.94,
+      "timeInterval": "2019-07-05T01:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.684E-4,
+      "highPrice": 1.708E-4,
+      "lowPrice": 1.66E-4,
+      "openPrice": 1.705E-4,
+      "volumeFrom": 91133.28,
+      "volumeTo": 15.27,
+      "timeInterval": "2019-07-05T02:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.691E-4,
+      "highPrice": 1.703E-4,
+      "lowPrice": 1.679E-4,
+      "openPrice": 1.684E-4,
+      "volumeFrom": 48517.35,
+      "volumeTo": 8.208,
+      "timeInterval": "2019-07-05T03:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.733E-4,
+      "highPrice": 1.735E-4,
+      "lowPrice": 1.689E-4,
+      "openPrice": 1.691E-4,
+      "volumeFrom": 96659.01,
+      "volumeTo": 16.56,
+      "timeInterval": "2019-07-05T04:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.791E-4,
+      "highPrice": 1.831E-4,
+      "lowPrice": 1.728E-4,
+      "openPrice": 1.733E-4,
+      "volumeFrom": 216757.47,
+      "volumeTo": 38.74,
+      "timeInterval": "2019-07-05T05:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.87E-4,
+      "highPrice": 1.902E-4,
+      "lowPrice": 1.791E-4,
+      "openPrice": 1.791E-4,
+      "volumeFrom": 363383.55,
+      "volumeTo": 67.19,
+      "timeInterval": "2019-07-05T06:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.844E-4,
+      "highPrice": 1.87E-4,
+      "lowPrice": 1.777E-4,
+      "openPrice": 1.87E-4,
+      "volumeFrom": 162796.96,
+      "volumeTo": 29.51,
+      "timeInterval": "2019-07-05T07:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.796E-4,
+      "highPrice": 1.844E-4,
+      "lowPrice": 1.786E-4,
+      "openPrice": 1.844E-4,
+      "volumeFrom": 77826.63,
+      "volumeTo": 14.12,
+      "timeInterval": "2019-07-05T08:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.799E-4,
+      "highPrice": 1.815E-4,
+      "lowPrice": 1.782E-4,
+      "openPrice": 1.796E-4,
+      "volumeFrom": 58815.28,
+      "volumeTo": 10.59,
+      "timeInterval": "2019-07-05T09:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.058E-4,
+      "highPrice": 2.078E-4,
+      "lowPrice": 1.798E-4,
+      "openPrice": 1.799E-4,
+      "volumeFrom": 888999.91,
+      "volumeTo": 175.25,
+      "timeInterval": "2019-07-05T10:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.948E-4,
+      "highPrice": 2.139E-4,
+      "lowPrice": 1.947E-4,
+      "openPrice": 2.058E-4,
+      "volumeFrom": 937972.4,
+      "volumeTo": 192.6,
+      "timeInterval": "2019-07-05T11:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.986E-4,
+      "highPrice": 1.994E-4,
+      "lowPrice": 1.94E-4,
+      "openPrice": 1.948E-4,
+      "volumeFrom": 273693.0,
+      "volumeTo": 53.91,
+      "timeInterval": "2019-07-05T12:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.029E-4,
+      "highPrice": 2.037E-4,
+      "lowPrice": 1.942E-4,
+      "openPrice": 1.986E-4,
+      "volumeFrom": 182088.75,
+      "volumeTo": 36.14,
+      "timeInterval": "2019-07-05T13:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.014E-4,
+      "highPrice": 2.119E-4,
+      "lowPrice": 1.953E-4,
+      "openPrice": 2.029E-4,
+      "volumeFrom": 412008.05,
+      "volumeTo": 84.05,
+      "timeInterval": "2019-07-05T14:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.061E-4,
+      "highPrice": 2.108E-4,
+      "lowPrice": 2.004E-4,
+      "openPrice": 2.014E-4,
+      "volumeFrom": 239134.3,
+      "volumeTo": 49.16,
+      "timeInterval": "2019-07-05T15:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.056E-4,
+      "highPrice": 2.094E-4,
+      "lowPrice": 1.987E-4,
+      "openPrice": 2.061E-4,
+      "volumeFrom": 231332.45,
+      "volumeTo": 46.89,
+      "timeInterval": "2019-07-05T16:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.143E-4,
+      "highPrice": 2.172E-4,
+      "lowPrice": 1.993E-4,
+      "openPrice": 2.056E-4,
+      "volumeFrom": 376235.44,
+      "volumeTo": 78.23,
+      "timeInterval": "2019-07-05T17:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.155E-4,
+      "highPrice": 2.198E-4,
+      "lowPrice": 2.087E-4,
+      "openPrice": 2.143E-4,
+      "volumeFrom": 441989.37,
+      "volumeTo": 95.18,
+      "timeInterval": "2019-07-05T18:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.155E-4,
+      "highPrice": 2.186E-4,
+      "lowPrice": 2.112E-4,
+      "openPrice": 2.155E-4,
+      "volumeFrom": 208730.58,
+      "volumeTo": 44.9,
+      "timeInterval": "2019-07-05T19:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.112E-4,
+      "highPrice": 2.186E-4,
+      "lowPrice": 2.104E-4,
+      "openPrice": 2.155E-4,
+      "volumeFrom": 170698.54,
+      "volumeTo": 36.64,
+      "timeInterval": "2019-07-05T20:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.115E-4,
+      "highPrice": 2.148E-4,
+      "lowPrice": 2.066E-4,
+      "openPrice": 2.112E-4,
+      "volumeFrom": 168948.53,
+      "volumeTo": 35.66,
+      "timeInterval": "2019-07-05T21:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.083E-4,
+      "highPrice": 2.122E-4,
+      "lowPrice": 2.078E-4,
+      "openPrice": 2.115E-4,
+      "volumeFrom": 129592.01,
+      "volumeTo": 27.2,
+      "timeInterval": "2019-07-05T22:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.19E-4,
+      "highPrice": 2.216E-4,
+      "lowPrice": 2.082E-4,
+      "openPrice": 2.083E-4,
+      "volumeFrom": 212752.1,
+      "volumeTo": 46.12,
+      "timeInterval": "2019-07-05T23:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.028E-4,
+      "highPrice": 2.199E-4,
+      "lowPrice": 2.027E-4,
+      "openPrice": 2.19E-4,
+      "volumeFrom": 299876.78,
+      "volumeTo": 63.08,
+      "timeInterval": "2019-07-06T00:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.104E-4,
+      "highPrice": 2.118E-4,
+      "lowPrice": 2.019E-4,
+      "openPrice": 2.028E-4,
+      "volumeFrom": 211435.94,
+      "volumeTo": 43.55,
+      "timeInterval": "2019-07-06T01:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.212E-4,
+      "highPrice": 2.233E-4,
+      "lowPrice": 2.079E-4,
+      "openPrice": 2.104E-4,
+      "volumeFrom": 318559.72,
+      "volumeTo": 69.34,
+      "timeInterval": "2019-07-06T02:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.298E-4,
+      "highPrice": 2.385E-4,
+      "lowPrice": 2.194E-4,
+      "openPrice": 2.212E-4,
+      "volumeFrom": 769497.89,
+      "volumeTo": 177.55,
+      "timeInterval": "2019-07-06T03:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.383E-4,
+      "highPrice": 2.46E-4,
+      "lowPrice": 2.298E-4,
+      "openPrice": 2.298E-4,
+      "volumeFrom": 704511.24,
+      "volumeTo": 169.16,
+      "timeInterval": "2019-07-06T04:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.573E-4,
+      "highPrice": 2.597E-4,
+      "lowPrice": 2.29E-4,
+      "openPrice": 2.383E-4,
+      "volumeFrom": 618686.99,
+      "volumeTo": 149.95,
+      "timeInterval": "2019-07-06T05:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.615E-4,
+      "highPrice": 2.658E-4,
+      "lowPrice": 2.453E-4,
+      "openPrice": 2.573E-4,
+      "volumeFrom": 863651.31,
+      "volumeTo": 222.07,
+      "timeInterval": "2019-07-06T06:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.573E-4,
+      "highPrice": 2.672E-4,
+      "lowPrice": 2.485E-4,
+      "openPrice": 2.615E-4,
+      "volumeFrom": 751667.82,
+      "volumeTo": 194.74,
+      "timeInterval": "2019-07-06T07:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.621E-4,
+      "highPrice": 2.666E-4,
+      "lowPrice": 2.54E-4,
+      "openPrice": 2.573E-4,
+      "volumeFrom": 509698.02,
+      "volumeTo": 132.92,
+      "timeInterval": "2019-07-06T08:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.698E-4,
+      "highPrice": 2.712E-4,
+      "lowPrice": 2.547E-4,
+      "openPrice": 2.621E-4,
+      "volumeFrom": 458046.86,
+      "volumeTo": 120.04,
+      "timeInterval": "2019-07-06T09:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.608E-4,
+      "highPrice": 2.815E-4,
+      "lowPrice": 2.594E-4,
+      "openPrice": 2.698E-4,
+      "volumeFrom": 1080719.0,
+      "volumeTo": 293.07,
+      "timeInterval": "2019-07-06T10:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.656E-4,
+      "highPrice": 2.689E-4,
+      "lowPrice": 2.563E-4,
+      "openPrice": 2.608E-4,
+      "volumeFrom": 457952.92,
+      "volumeTo": 120.35,
+      "timeInterval": "2019-07-06T11:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.627E-4,
+      "highPrice": 2.745E-4,
+      "lowPrice": 2.596E-4,
+      "openPrice": 2.656E-4,
+      "volumeFrom": 391618.47,
+      "volumeTo": 104.63,
+      "timeInterval": "2019-07-06T12:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.43E-4,
+      "highPrice": 2.647E-4,
+      "lowPrice": 2.413E-4,
+      "openPrice": 2.627E-4,
+      "volumeFrom": 618527.63,
+      "volumeTo": 154.75,
+      "timeInterval": "2019-07-06T13:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.349E-4,
+      "highPrice": 2.442E-4,
+      "lowPrice": 2.343E-4,
+      "openPrice": 2.43E-4,
+      "volumeFrom": 537209.4,
+      "volumeTo": 128.52,
+      "timeInterval": "2019-07-06T14:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.319E-4,
+      "highPrice": 2.43E-4,
+      "lowPrice": 2.304E-4,
+      "openPrice": 2.349E-4,
+      "volumeFrom": 374712.39,
+      "volumeTo": 88.46,
+      "timeInterval": "2019-07-06T15:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.36E-4,
+      "highPrice": 2.477E-4,
+      "lowPrice": 2.319E-4,
+      "openPrice": 2.319E-4,
+      "volumeFrom": 581374.91,
+      "volumeTo": 140.45,
+      "timeInterval": "2019-07-06T16:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.441E-4,
+      "highPrice": 2.455E-4,
+      "lowPrice": 2.341E-4,
+      "openPrice": 2.36E-4,
+      "volumeFrom": 208017.79,
+      "volumeTo": 49.91,
+      "timeInterval": "2019-07-06T17:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.436E-4,
+      "highPrice": 2.48E-4,
+      "lowPrice": 2.414E-4,
+      "openPrice": 2.441E-4,
+      "volumeFrom": 180901.78,
+      "volumeTo": 44.28,
+      "timeInterval": "2019-07-06T18:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.383E-4,
+      "highPrice": 2.436E-4,
+      "lowPrice": 2.346E-4,
+      "openPrice": 2.436E-4,
+      "volumeFrom": 179856.33,
+      "volumeTo": 42.96,
+      "timeInterval": "2019-07-06T19:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.412E-4,
+      "highPrice": 2.424E-4,
+      "lowPrice": 2.359E-4,
+      "openPrice": 2.383E-4,
+      "volumeFrom": 104422.78,
+      "volumeTo": 24.96,
+      "timeInterval": "2019-07-06T20:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.49E-4,
+      "highPrice": 2.517E-4,
+      "lowPrice": 2.408E-4,
+      "openPrice": 2.412E-4,
+      "volumeFrom": 287719.87,
+      "volumeTo": 71.12,
+      "timeInterval": "2019-07-06T21:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.498E-4,
+      "highPrice": 2.541E-4,
+      "lowPrice": 2.406E-4,
+      "openPrice": 2.49E-4,
+      "volumeFrom": 229505.72,
+      "volumeTo": 56.99,
+      "timeInterval": "2019-07-06T22:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.597E-4,
+      "highPrice": 2.617E-4,
+      "lowPrice": 2.456E-4,
+      "openPrice": 2.498E-4,
+      "volumeFrom": 341625.77,
+      "volumeTo": 86.7,
+      "timeInterval": "2019-07-06T23:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.762E-4,
+      "highPrice": 2.768E-4,
+      "lowPrice": 2.538E-4,
+      "openPrice": 2.597E-4,
+      "volumeFrom": 458147.42,
+      "volumeTo": 122.79,
+      "timeInterval": "2019-07-07T00:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.727E-4,
+      "highPrice": 2.837E-4,
+      "lowPrice": 2.705E-4,
+      "openPrice": 2.762E-4,
+      "volumeFrom": 601759.94,
+      "volumeTo": 166.48,
+      "timeInterval": "2019-07-07T01:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.658E-4,
+      "highPrice": 2.764E-4,
+      "lowPrice": 2.651E-4,
+      "openPrice": 2.727E-4,
+      "volumeFrom": 298638.41,
+      "volumeTo": 80.44,
+      "timeInterval": "2019-07-07T02:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.697E-4,
+      "highPrice": 2.766E-4,
+      "lowPrice": 2.656E-4,
+      "openPrice": 2.658E-4,
+      "volumeFrom": 206265.31,
+      "volumeTo": 55.8,
+      "timeInterval": "2019-07-07T03:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.567E-4,
+      "highPrice": 2.737E-4,
+      "lowPrice": 2.53E-4,
+      "openPrice": 2.697E-4,
+      "volumeFrom": 396049.97,
+      "volumeTo": 103.09,
+      "timeInterval": "2019-07-07T04:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.548E-4,
+      "highPrice": 2.597E-4,
+      "lowPrice": 2.488E-4,
+      "openPrice": 2.567E-4,
+      "volumeFrom": 197145.38,
+      "volumeTo": 50.23,
+      "timeInterval": "2019-07-07T05:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.425E-4,
+      "highPrice": 2.552E-4,
+      "lowPrice": 2.42E-4,
+      "openPrice": 2.548E-4,
+      "volumeFrom": 219790.54,
+      "volumeTo": 54.58,
+      "timeInterval": "2019-07-07T06:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.515E-4,
+      "highPrice": 2.529E-4,
+      "lowPrice": 2.425E-4,
+      "openPrice": 2.425E-4,
+      "volumeFrom": 182510.59,
+      "volumeTo": 45.19,
+      "timeInterval": "2019-07-07T07:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.422E-4,
+      "highPrice": 2.519E-4,
+      "lowPrice": 2.401E-4,
+      "openPrice": 2.515E-4,
+      "volumeFrom": 171856.03,
+      "volumeTo": 42.14,
+      "timeInterval": "2019-07-07T08:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.429E-4,
+      "highPrice": 2.439E-4,
+      "lowPrice": 2.356E-4,
+      "openPrice": 2.422E-4,
+      "volumeFrom": 279770.51,
+      "volumeTo": 67.0,
+      "timeInterval": "2019-07-07T09:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.493E-4,
+      "highPrice": 2.54E-4,
+      "lowPrice": 2.371E-4,
+      "openPrice": 2.429E-4,
+      "volumeFrom": 287996.25,
+      "volumeTo": 70.7,
+      "timeInterval": "2019-07-07T10:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.482E-4,
+      "highPrice": 2.521E-4,
+      "lowPrice": 2.421E-4,
+      "openPrice": 2.493E-4,
+      "volumeFrom": 279164.64,
+      "volumeTo": 68.94,
+      "timeInterval": "2019-07-07T11:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.463E-4,
+      "highPrice": 2.489E-4,
+      "lowPrice": 2.402E-4,
+      "openPrice": 2.482E-4,
+      "volumeFrom": 139450.32,
+      "volumeTo": 34.03,
+      "timeInterval": "2019-07-07T12:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.417E-4,
+      "highPrice": 2.488E-4,
+      "lowPrice": 2.406E-4,
+      "openPrice": 2.463E-4,
+      "volumeFrom": 132750.41,
+      "volumeTo": 32.46,
+      "timeInterval": "2019-07-07T13:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.41E-4,
+      "highPrice": 2.423E-4,
+      "lowPrice": 2.373E-4,
+      "openPrice": 2.417E-4,
+      "volumeFrom": 120422.03,
+      "volumeTo": 28.84,
+      "timeInterval": "2019-07-07T14:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.321E-4,
+      "highPrice": 2.433E-4,
+      "lowPrice": 2.32E-4,
+      "openPrice": 2.41E-4,
+      "volumeFrom": 163585.32,
+      "volumeTo": 38.71,
+      "timeInterval": "2019-07-07T15:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.36E-4,
+      "highPrice": 2.457E-4,
+      "lowPrice": 2.321E-4,
+      "openPrice": 2.321E-4,
+      "volumeFrom": 269762.81,
+      "volumeTo": 64.24,
+      "timeInterval": "2019-07-07T16:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.292E-4,
+      "highPrice": 2.384E-4,
+      "lowPrice": 2.262E-4,
+      "openPrice": 2.36E-4,
+      "volumeFrom": 194018.39,
+      "volumeTo": 44.96,
+      "timeInterval": "2019-07-07T17:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.259E-4,
+      "highPrice": 2.308E-4,
+      "lowPrice": 2.258E-4,
+      "openPrice": 2.292E-4,
+      "volumeFrom": 215468.86,
+      "volumeTo": 49.25,
+      "timeInterval": "2019-07-07T18:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.281E-4,
+      "highPrice": 2.324E-4,
+      "lowPrice": 2.236E-4,
+      "openPrice": 2.259E-4,
+      "volumeFrom": 231563.52,
+      "volumeTo": 52.94,
+      "timeInterval": "2019-07-07T19:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.234E-4,
+      "highPrice": 2.307E-4,
+      "lowPrice": 2.23E-4,
+      "openPrice": 2.281E-4,
+      "volumeFrom": 120558.75,
+      "volumeTo": 27.27,
+      "timeInterval": "2019-07-07T20:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.201E-4,
+      "highPrice": 2.244E-4,
+      "lowPrice": 2.177E-4,
+      "openPrice": 2.234E-4,
+      "volumeFrom": 192929.24,
+      "volumeTo": 42.57,
+      "timeInterval": "2019-07-07T21:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.192E-4,
+      "highPrice": 2.234E-4,
+      "lowPrice": 2.19E-4,
+      "openPrice": 2.201E-4,
+      "volumeFrom": 108816.71,
+      "volumeTo": 24.05,
+      "timeInterval": "2019-07-07T22:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.165E-4,
+      "highPrice": 2.196E-4,
+      "lowPrice": 2.16E-4,
+      "openPrice": 2.192E-4,
+      "volumeFrom": 157758.1,
+      "volumeTo": 34.29,
+      "timeInterval": "2019-07-07T23:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.199E-4,
+      "highPrice": 2.268E-4,
+      "lowPrice": 2.156E-4,
+      "openPrice": 2.165E-4,
+      "volumeFrom": 266191.66,
+      "volumeTo": 58.9,
+      "timeInterval": "2019-07-08T00:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.237E-4,
+      "highPrice": 2.24E-4,
+      "lowPrice": 2.176E-4,
+      "openPrice": 2.199E-4,
+      "volumeFrom": 138917.25,
+      "volumeTo": 30.57,
+      "timeInterval": "2019-07-08T01:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.392E-4,
+      "highPrice": 2.481E-4,
+      "lowPrice": 2.226E-4,
+      "openPrice": 2.237E-4,
+      "volumeFrom": 651392.63,
+      "volumeTo": 153.15,
+      "timeInterval": "2019-07-08T02:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.288E-4,
+      "highPrice": 2.406E-4,
+      "lowPrice": 2.283E-4,
+      "openPrice": 2.392E-4,
+      "volumeFrom": 223827.83,
+      "volumeTo": 52.48,
+      "timeInterval": "2019-07-08T03:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.317E-4,
+      "highPrice": 2.359E-4,
+      "lowPrice": 2.278E-4,
+      "openPrice": 2.288E-4,
+      "volumeFrom": 141462.22,
+      "volumeTo": 32.63,
+      "timeInterval": "2019-07-08T04:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.208E-4,
+      "highPrice": 2.317E-4,
+      "lowPrice": 2.206E-4,
+      "openPrice": 2.317E-4,
+      "volumeFrom": 131153.92,
+      "volumeTo": 29.49,
+      "timeInterval": "2019-07-08T05:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.207E-4,
+      "highPrice": 2.252E-4,
+      "lowPrice": 2.184E-4,
+      "openPrice": 2.208E-4,
+      "volumeFrom": 179476.43,
+      "volumeTo": 39.67,
+      "timeInterval": "2019-07-08T06:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.21E-4,
+      "highPrice": 2.214E-4,
+      "lowPrice": 2.167E-4,
+      "openPrice": 2.207E-4,
+      "volumeFrom": 117953.09,
+      "volumeTo": 25.8,
+      "timeInterval": "2019-07-08T07:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.194E-4,
+      "highPrice": 2.323E-4,
+      "lowPrice": 2.181E-4,
+      "openPrice": 2.21E-4,
+      "volumeFrom": 224089.02,
+      "volumeTo": 50.46,
+      "timeInterval": "2019-07-08T08:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.063E-4,
+      "highPrice": 2.215E-4,
+      "lowPrice": 2.025E-4,
+      "openPrice": 2.194E-4,
+      "volumeFrom": 508395.85,
+      "volumeTo": 106.05,
+      "timeInterval": "2019-07-08T09:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.003E-4,
+      "highPrice": 2.077E-4,
+      "lowPrice": 1.989E-4,
+      "openPrice": 2.063E-4,
+      "volumeFrom": 230493.35,
+      "volumeTo": 46.79,
+      "timeInterval": "2019-07-08T10:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.002E-4,
+      "highPrice": 2.056E-4,
+      "lowPrice": 1.982E-4,
+      "openPrice": 2.003E-4,
+      "volumeFrom": 171916.14,
+      "volumeTo": 34.55,
+      "timeInterval": "2019-07-08T11:00:00.000+0000"
+    },
+    {
+      "closePrice": 2.014E-4,
+      "highPrice": 2.084E-4,
+      "lowPrice": 1.988E-4,
+      "openPrice": 2.002E-4,
+      "volumeFrom": 246978.51,
+      "volumeTo": 50.45,
+      "timeInterval": "2019-07-08T12:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.997E-4,
+      "highPrice": 2.053E-4,
+      "lowPrice": 1.986E-4,
+      "openPrice": 2.014E-4,
+      "volumeFrom": 149533.65,
+      "volumeTo": 30.15,
+      "timeInterval": "2019-07-08T13:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.939E-4,
+      "highPrice": 2.031E-4,
+      "lowPrice": 1.919E-4,
+      "openPrice": 1.997E-4,
+      "volumeFrom": 250008.57,
+      "volumeTo": 49.05,
+      "timeInterval": "2019-07-08T14:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.949E-4,
+      "highPrice": 1.967E-4,
+      "lowPrice": 1.901E-4,
+      "openPrice": 1.939E-4,
+      "volumeFrom": 239660.35,
+      "volumeTo": 46.23,
+      "timeInterval": "2019-07-08T15:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.907E-4,
+      "highPrice": 1.998E-4,
+      "lowPrice": 1.904E-4,
+      "openPrice": 1.949E-4,
+      "volumeFrom": 232731.7,
+      "volumeTo": 45.1,
+      "timeInterval": "2019-07-08T16:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.885E-4,
+      "highPrice": 1.91E-4,
+      "lowPrice": 1.871E-4,
+      "openPrice": 1.907E-4,
+      "volumeFrom": 153333.9,
+      "volumeTo": 29.02,
+      "timeInterval": "2019-07-08T17:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.898E-4,
+      "highPrice": 1.94E-4,
+      "lowPrice": 1.882E-4,
+      "openPrice": 1.885E-4,
+      "volumeFrom": 140791.42,
+      "volumeTo": 26.91,
+      "timeInterval": "2019-07-08T18:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.823E-4,
+      "highPrice": 1.919E-4,
+      "lowPrice": 1.796E-4,
+      "openPrice": 1.898E-4,
+      "volumeFrom": 282752.43,
+      "volumeTo": 51.95,
+      "timeInterval": "2019-07-08T19:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.904E-4,
+      "highPrice": 1.927E-4,
+      "lowPrice": 1.812E-4,
+      "openPrice": 1.823E-4,
+      "volumeFrom": 255127.94,
+      "volumeTo": 47.91,
+      "timeInterval": "2019-07-08T20:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.845E-4,
+      "highPrice": 1.907E-4,
+      "lowPrice": 1.825E-4,
+      "openPrice": 1.904E-4,
+      "volumeFrom": 133052.28,
+      "volumeTo": 24.78,
+      "timeInterval": "2019-07-08T21:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.85E-4,
+      "highPrice": 1.853E-4,
+      "lowPrice": 1.799E-4,
+      "openPrice": 1.845E-4,
+      "volumeFrom": 115330.14,
+      "volumeTo": 21.04,
+      "timeInterval": "2019-07-08T22:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.78E-4,
+      "highPrice": 1.85E-4,
+      "lowPrice": 1.74E-4,
+      "openPrice": 1.85E-4,
+      "volumeFrom": 422952.9,
+      "volumeTo": 75.32,
+      "timeInterval": "2019-07-08T23:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.802E-4,
+      "highPrice": 1.834E-4,
+      "lowPrice": 1.779E-4,
+      "openPrice": 1.78E-4,
+      "volumeFrom": 145757.83,
+      "volumeTo": 26.41,
+      "timeInterval": "2019-07-09T00:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.747E-4,
+      "highPrice": 1.836E-4,
+      "lowPrice": 1.723E-4,
+      "openPrice": 1.802E-4,
+      "volumeFrom": 198613.26,
+      "volumeTo": 35.45,
+      "timeInterval": "2019-07-09T01:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.79E-4,
+      "highPrice": 1.794E-4,
+      "lowPrice": 1.693E-4,
+      "openPrice": 1.747E-4,
+      "volumeFrom": 258019.02,
+      "volumeTo": 44.79,
+      "timeInterval": "2019-07-09T02:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.774E-4,
+      "highPrice": 1.795E-4,
+      "lowPrice": 1.723E-4,
+      "openPrice": 1.79E-4,
+      "volumeFrom": 156553.05,
+      "volumeTo": 27.55,
+      "timeInterval": "2019-07-09T03:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.745E-4,
+      "highPrice": 1.795E-4,
+      "lowPrice": 1.726E-4,
+      "openPrice": 1.774E-4,
+      "volumeFrom": 91161.42,
+      "volumeTo": 16.06,
+      "timeInterval": "2019-07-09T04:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.745E-4,
+      "highPrice": 1.776E-4,
+      "lowPrice": 1.729E-4,
+      "openPrice": 1.745E-4,
+      "volumeFrom": 90193.05,
+      "volumeTo": 15.83,
+      "timeInterval": "2019-07-09T05:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.701E-4,
+      "highPrice": 1.778E-4,
+      "lowPrice": 1.69E-4,
+      "openPrice": 1.745E-4,
+      "volumeFrom": 148435.12,
+      "volumeTo": 25.84,
+      "timeInterval": "2019-07-09T06:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.779E-4,
+      "highPrice": 1.81E-4,
+      "lowPrice": 1.677E-4,
+      "openPrice": 1.701E-4,
+      "volumeFrom": 263255.94,
+      "volumeTo": 45.71,
+      "timeInterval": "2019-07-09T07:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.732E-4,
+      "highPrice": 1.779E-4,
+      "lowPrice": 1.697E-4,
+      "openPrice": 1.779E-4,
+      "volumeFrom": 248130.98,
+      "volumeTo": 43.2,
+      "timeInterval": "2019-07-09T08:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.693E-4,
+      "highPrice": 1.758E-4,
+      "lowPrice": 1.687E-4,
+      "openPrice": 1.732E-4,
+      "volumeFrom": 106894.98,
+      "volumeTo": 18.43,
+      "timeInterval": "2019-07-09T09:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.726E-4,
+      "highPrice": 1.789E-4,
+      "lowPrice": 1.693E-4,
+      "openPrice": 1.693E-4,
+      "volumeFrom": 206672.9,
+      "volumeTo": 35.92,
+      "timeInterval": "2019-07-09T10:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.776E-4,
+      "highPrice": 1.78E-4,
+      "lowPrice": 1.722E-4,
+      "openPrice": 1.726E-4,
+      "volumeFrom": 136641.02,
+      "volumeTo": 23.96,
+      "timeInterval": "2019-07-09T11:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.837E-4,
+      "highPrice": 1.894E-4,
+      "lowPrice": 1.765E-4,
+      "openPrice": 1.776E-4,
+      "volumeFrom": 346983.59,
+      "volumeTo": 63.55,
+      "timeInterval": "2019-07-09T12:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.891E-4,
+      "highPrice": 1.975E-4,
+      "lowPrice": 1.834E-4,
+      "openPrice": 1.837E-4,
+      "volumeFrom": 467716.69,
+      "volumeTo": 89.34,
+      "timeInterval": "2019-07-09T13:00:00.000+0000"
+    },
+    {
+      "closePrice": 1.942E-4,
+      "highPrice": 1.968E-4,
+      "lowPrice": 1.891E-4,
+      "openPrice": 1.891E-4,
+      "volumeFrom": 91254.15,
+      "volumeTo": 17.64,
+      "timeInterval": "2019-07-09T14:00:00.000+0000"
+    }
+  ]
+}

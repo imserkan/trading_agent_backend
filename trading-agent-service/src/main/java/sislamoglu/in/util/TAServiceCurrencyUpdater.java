@@ -19,12 +19,12 @@ public class TAServiceCurrencyUpdater {
     public void addAdditionalCurrencyInformation(Currency databaseCurrency, Currency updatedCurrency){
         Date lastUpdateDate_databaseCurrency = databaseCurrency
                 .getCurrencyInformationList()
-                .get(databaseCurrency.getCurrencyInformationList().size())
+                .get(databaseCurrency.getCurrencyInformationList().size()-1)
                 .getTimeInterval();
 
         Date lastUpdateDate_updatedCurrency = updatedCurrency
                 .getCurrencyInformationList()
-                .get(updatedCurrency.getCurrencyInformationList().size())
+                .get(updatedCurrency.getCurrencyInformationList().size()-1)
                 .getTimeInterval();
 
         List<CurrencyInformation> currencyInformationList = databaseCurrency.getCurrencyInformationList();
@@ -33,7 +33,7 @@ public class TAServiceCurrencyUpdater {
         for (int i = 0; i < updatedCurrencyInformationList.size(); i++){
             if (updatedCurrencyInformationList.get(i).getTimeInterval().compareTo(lastUpdateDate_databaseCurrency) > 0){
                 updatePoint = i;
-                logger.debug("The Currenct {} is updated from {} to {}",
+                logger.debug("The Currency {} is updated from {} to {}",
                         databaseCurrency.getName(),
                         lastUpdateDate_databaseCurrency,
                         lastUpdateDate_updatedCurrency);

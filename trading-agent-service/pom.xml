@@ -28,6 +28,11 @@
             <version>${trading.agent.version}</version>
         </dependency>
         <dependency>
+            <groupId>sislamoglu.in</groupId>
+            <artifactId>trading-agent-common</artifactId>
+            <version>${trading.agent.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-mongodb</artifactId>
             <version>${spring.boot.starter.version}</version>
@@ -43,6 +48,11 @@
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
             <version>5.1.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ta4j</groupId>
+            <artifactId>ta4j-core</artifactId>
+            <version>0.12</version>
         </dependency>
     </dependencies>
 

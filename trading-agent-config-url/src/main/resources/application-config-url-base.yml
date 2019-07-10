@@ -72,6 +72,9 @@ tradingagent:
         data:
           context: ${tradingagent.connector.historical.hourly.context}/data
           url: ${tradingagent.connector.url}${tradingagent.connector.historical.hourly.data.context}
+          query:
+            context: ${tradingagent.connector.historical.hourly.data.context}/query
+            url: ${tradingagent.connector.url}${tradingagent.connector.historical.hourly.data.query.context}
   service:
     context: ${tradingagent.context}/service
     mongodb:
