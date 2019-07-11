@@ -16,6 +16,7 @@ public class Currency implements ICurrency{
     @Id
     private String id;
     private String name;
+    private int dataSize;
     @CreatedBy
     private String createdBy;
     @CreatedDate

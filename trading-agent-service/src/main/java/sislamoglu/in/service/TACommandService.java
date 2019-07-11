@@ -12,13 +12,16 @@ import sislamoglu.in.util.TAServiceCurrencyUpdater;
 
 
 @Service
-public class TAService {
+public class TACommandService {
 
     @Autowired
     private TAServiceToConnectorClient connectorClient;
 
     @Autowired
     MongoTemplate mongoTemplate;
+
+    @Autowired
+    private TAQueryService queryService;
 
     TAServiceCurrencyUpdater serviceCurrencyUpdater = new TAServiceCurrencyUpdater();
 
@@ -33,21 +36,13 @@ public class TAService {
             serviceCurrencyUpdater.addAdditionalCurrencyInformation(prevCurrency, currency);
             currency = prevCurrency;
         }
+        currency.setDataSize(currency.getCurrencyInformationList().size());
         Currency savedCurrency = mongoTemplate.save(currency);
         return savedCurrency.getId();
     }
 
-    public Currency getCurrencyInformation(String id) {
-        return mongoTemplate.findOne(
-                Query.query(Criteria.where("id").is(id))
-                , Currency.class);
-    }
-
     public String deleteCurrencyInformation(String id){
-        Currency currency = getCurrencyInformation(id);
-        if (currency == null){
-            throw new ResourceNotAvailableException()
-        }
+        Currency currency = queryService.getCurrencyInformation(id);
         mongoTemplate.remove(currency);
         return "Currency with name: " + currency.getName() + ", witd ID: " + currency.getId() + "is successfully deleted";
     }

@@ -4,6 +4,8 @@ api:
       context: /cryptocompare
       id:
         context: ${api.list.cryptocompare.context}/{id}
+      query:
+        context: ${api.list.cryptocompare.context}/query
       base:
         url: https://min-api.cryptocompare.com
         data:

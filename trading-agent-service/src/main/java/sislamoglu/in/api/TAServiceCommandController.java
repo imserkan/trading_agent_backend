@@ -9,7 +9,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import sislamoglu.in.model.CurrencyParameters;
-import sislamoglu.in.service.TAService;
+import sislamoglu.in.service.TACommandService;
 
 import java.net.URI;
 
@@ -21,7 +21,7 @@ public class TAServiceCommandController {
     Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
-    TAService service;
+    TACommandService service;
 
     @Value("${tradingagent.service.context}")
     private String tradingagentServiceContext;

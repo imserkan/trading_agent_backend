@@ -6,7 +6,7 @@
 
     <groupId>sislamoglu.in</groupId>
     <artifactId>trading-agent-common</artifactId>
-    <version>${trading.agent.version</version>
+    <version>${trading.agent.version}</version>
 
     <parent>
         <groupId>sislamoglu.in</groupId>

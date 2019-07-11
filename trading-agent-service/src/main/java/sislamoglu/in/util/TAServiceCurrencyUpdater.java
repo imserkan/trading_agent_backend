@@ -29,7 +29,7 @@ public class TAServiceCurrencyUpdater {
 
         List<CurrencyInformation> currencyInformationList = databaseCurrency.getCurrencyInformationList();
         List<CurrencyInformation> updatedCurrencyInformationList = updatedCurrency.getCurrencyInformationList();
-        int updatePoint = Integer.MAX_VALUE;
+        int updatePoint = databaseCurrency.getCurrencyInformationList().size();
         for (int i = 0; i < updatedCurrencyInformationList.size(); i++){
             if (updatedCurrencyInformationList.get(i).getTimeInterval().compareTo(lastUpdateDate_databaseCurrency) > 0){
                 updatePoint = i;
