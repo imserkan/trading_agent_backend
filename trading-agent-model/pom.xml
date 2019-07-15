@@ -18,11 +18,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-jpa</artifactId>
-            <version>${spring.boot.starter.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
             <version>5.4.2.Final</version>
@@ -31,6 +26,11 @@
             <groupId>sislamoglu.in</groupId>
             <artifactId>trading-agent-common</artifactId>
             <version>${trading.agent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ta4j</groupId>
+            <artifactId>ta4j-core</artifactId>
+            <version>0.12</version>
         </dependency>
     </dependencies>
 
