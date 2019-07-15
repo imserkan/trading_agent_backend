@@ -53,6 +53,7 @@ public class CryptoCompareDataParserService implements Serializable {
             currencyInformationList.add(currencyInformation);
         }
         currency.setCurrencyInformationList(currencyInformationList);
+
     }
 
     private CryptoCompareHistoricalHourly getHistoricalHourlyDataFromConnectorService(CurrencyParameters currencyParameters){
