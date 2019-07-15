@@ -1,11 +1,14 @@
+
 package sislamoglu.in.util;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.ta4j.core.Bar;
 import sislamoglu.in.model.Currency;
 import sislamoglu.in.model.CurrencyInformation;
+import sislamoglu.in.model.ta4j.CurrencyTimeSeries;
 
 import java.util.Date;
 import java.util.List;
@@ -37,6 +40,37 @@ public class TAServiceCurrencyUpdater {
                         databaseCurrency.getName(),
                         lastUpdateDate_databaseCurrency,
                         lastUpdateDate_updatedCurrency);
+                break;
+            }
+        }
+        currencyInformationList.addAll(updatedCurrencyInformationList.subList(updatePoint, updatedCurrencyInformationList.size()));
+    }
+
+    public void addAdditionalTimeSeriesInformation(CurrencyTimeSeries databaseCurrencyTimeSeries, CurrencyTimeSeries updatedCurrencyTimeSeries){
+        Date lastUpdateDate_databaseCurrencyTimeSeries = Date.from(databaseCurrencyTimeSeries
+                .getTimeSeries()
+                .getLastBar()
+                .getEndTime()
+                .toInstant()
+        );
+
+        Date lastUpdateDate_updateCurrencyTimeSeries = Date.from(updatedCurrencyTimeSeries
+                .getTimeSeries()
+                .getLastBar()
+                .getEndTime()
+                .toInstant()
+        );
+
+        List<Bar> currencyInformationList = databaseCurrencyTimeSeries.getTimeSeries().getBarData();
+        List<Bar> updatedCurrencyInformationList = updatedCurrencyTimeSeries.getTimeSeries().getBarData();
+        int updatePoint = databaseCurrencyTimeSeries.getTimeSeries().getBarData().size();
+        for (int i = 0; i < updatedCurrencyInformationList.size(); i++){
+            if (Date.from(updatedCurrencyInformationList.get(i).getEndTime().toInstant()).compareTo(lastUpdateDate_databaseCurrencyTimeSeries) > 0){
+                updatePoint = i;
+                logger.debug("The Currency {} is updated from {} to {}",
+                        databaseCurrencyTimeSeries.getCurrencyIdentifier(),
+                        lastUpdateDate_databaseCurrencyTimeSeries,
+                        lastUpdateDate_updateCurrencyTimeSeries);
                 break;
             }
         }

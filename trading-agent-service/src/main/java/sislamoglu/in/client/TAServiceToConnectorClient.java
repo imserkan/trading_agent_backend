@@ -1,5 +1,6 @@
 package sislamoglu.in.client;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ public class TAServiceToConnectorClient implements Serializable {
     @Value("${tradingagent.connector.historical.hourly.data.url}")
     private String taConnectorHistoricalHourlyDataUrl;
 
+    @JsonDeserialize
     public Currency getHistoricalHourlyDataFromConnectorService(CurrencyParameters currencyParameters){
         ResponseEntity<Currency> responseEntity = restTemplate.exchange(taConnectorHistoricalHourlyDataUrl, HttpMethod.POST, constructHttpHeaders(currencyParameters), Currency.class);
         Currency currency = null;

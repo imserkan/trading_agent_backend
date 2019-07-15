@@ -35,7 +35,7 @@ public class TAServiceCommandController {
         }catch (Exception ex){
             logger.error(ex.getMessage(), ex);
         }
-        return new ResponseEntity<URI>(uri, HttpStatus.CREATED);
+        return new ResponseEntity<>(uri, HttpStatus.CREATED);
     }
 
     @PutMapping(value = "${api.list.cryptocompare.context}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
@@ -47,7 +47,7 @@ public class TAServiceCommandController {
         }catch (Exception ex){
             logger.error(ex.getMessage(), ex);
         }
-        return new ResponseEntity<URI>(uri, HttpStatus.OK);
+        return new ResponseEntity<>(uri, HttpStatus.OK);
     }
 
     @DeleteMapping(value = "${api.list.cryptocompare.id.context}", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)

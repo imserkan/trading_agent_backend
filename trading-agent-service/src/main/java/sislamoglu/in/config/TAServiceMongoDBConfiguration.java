@@ -2,8 +2,13 @@ package sislamoglu.in.config;
 
 import com.mongodb.MongoClient;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.convert.CustomConversions;
 import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
+import org.springframework.data.mongodb.core.convert.MongoCustomConversions;
+
+import java.util.Arrays;
 
 @Configuration
 public class TAServiceMongoDBConfiguration extends AbstractMongoConfiguration {
@@ -24,4 +29,13 @@ public class TAServiceMongoDBConfiguration extends AbstractMongoConfiguration {
     protected String getDatabaseName() {
         return databaseName;
     }
+
+    @Bean
+    public CustomConversions customConversions() {
+        return new MongoCustomConversions(Arrays.asList(
+                new ZonedDateTimeToDocumentConverter(),
+                new DocumentToZonedDateTimeConverter()
+        ));
+    }
+
 }
